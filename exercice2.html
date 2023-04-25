@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(css/style.css);
+
+        .section {
+            border: none;
+            border-radius: 2px;
+            border-radius: 100px;
+            width: 100px;
+            background-color: white;
+        }
+        .image{
+            padding: 50px;
+            cursor: pointer;
+            position: relative;
+            text-align: center;
+            margin-inline: 400px;
+        }
+        .section{
+            padding: 50px;
+            cursor: pointer;
+            position: relative;
+            margin-inline: 400px;
+            text-align: center;
+        }
+        .section2 {
+            display: inline-block;
+            float: right;
+            border: 2px;
+            background-color: whitesmoke;
+            padding: 12px;
+            width: 250px;
+        }
+        
+
+        form{
+            display: grid;
+            position: absolute;
+            top: 5%;
+            left: 70%;
+        }
+        form input{
+            border: solid 1px;
+            border-radius: 25px;
+            width: 450px;
+            height: 28px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div style="grid-template-columns: 1fr 1fr 1fr;">
+        <div id="navlist">
+            <a href="#">gmail</a>
+            <a href="#">images</a>
+            <img src="image.jpg" alt="image.jpg" width="15px" height="15px">
+            <button>connexion</button>
+        </div> 
+        <div class="tout">
+        <div class="image">
+            <img src="google.png" alt="google.png" width="700px" height="400px">
+        </div>
+        <div class="section">
+            <form action="#">
+                <input type="text" placeholder="l" name="rechercher;"><br><br>
+        <div>
+            <div class="section2">
+                <a href="#">recherche Google</a><br><br><br>
+                <a href="#">j'ai de la chance</a>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+
+</html>
